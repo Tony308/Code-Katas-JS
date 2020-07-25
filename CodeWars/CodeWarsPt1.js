@@ -273,30 +273,6 @@ function isAnagrams(word, val) {
     return ans;
 }
 
-var distribution = function(size) {
-    // insert code here
-    var ans = [];
-    const sqrt = Math.sqrt(size);
-    const width = Math.ceil(sqrt);
-    for (let x = 0;x < width;x++) {
-        let grid = buildGrid(width);
-        ans.push(grid);
-    }
-
-    console.log(ans);
-    return ans;
-}
-
-const buildGrid = (width) => {
-    let grid = [];
-    for (let x = 0;x < width;x++) {
-        grid.push();
-    } 
-    return grid;
-}
-
-distribution(5);
-
 module.exports = {
     duplicateCount,
     quadratic,
@@ -311,6 +287,5 @@ module.exports = {
     comp,
     deleteNth,
     digPow,
-    anagrams,
-    distribution
+    anagrams
 }

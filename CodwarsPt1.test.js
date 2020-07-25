@@ -1,4 +1,5 @@
-const {duplicateCount, quadratic, findOdd, solution, isIsogram, getCount, dirReduc, weatherInfo, nbYear, rot13, comp, deleteNth, digPow, anagrams, distribution} = require('./CodeWars');
+const {duplicateCount, quadratic, findOdd, solution, isIsogram, getCount, dirReduc, weatherInfo, nbYear, rot13, comp, deleteNth, digPow, anagrams} = require('./CodeWars/CodeWarsPt1');
+const {distribution} = require('./CodeWars/SnakeInTheSquare')
 
 describe('duplicateCount', () => {
     it('', () => {
@@ -16,7 +17,6 @@ describe('Quadratics', () => {
         expect(quadratic(-5,-4)).toStrictEqual([1, 9, 20]);
     })
 })
-
 
 describe('findOdd', () => {
     it('test cases', () => {
@@ -207,9 +207,14 @@ describe.only('Distribution', () => {
         [8,  [[1, 0, 0, 0], [1, 0, 1, 0], [1, 0, 1, 0], [1, 1, 1, 0]] ],
         [31, [[1, 0, 1, 1, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 1, 1, 0, 1, 1, 1]] ],
       ];
-      it('test case', () => {
-        for (let [n,exp] of CONFIG) {
-            expect(distribution(n)).toStrictEqual(exp);
-        }
+      it('5', () => {
+          expect(distribution(5)).toStrictEqual([[1, 0, 0], [1, 0, 0], [1, 1, 1]]);
+      })
+      it('8', () => {
+          expect(distribution(8)).toStrictEqual([[1, 0, 0, 0], [1, 0, 1, 0], [1, 0, 1, 0], [1, 1, 1, 0]] )
+      })
+      it('31', () => {
+          expect(distribution(31))
+          .toStrictEqual([[1, 0, 1, 1, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 0, 1, 0, 1, 0, 1], [1, 1, 1, 0, 1, 1, 1]] )
       })
 })
