@@ -1,14 +1,14 @@
 const {duplicateCount, quadratic, findOdd, solution, isIsogram, getCount, dirReduc, weatherInfo, nbYear, rot13, comp, deleteNth, digPow, anagrams} = require('./CodeWars/CodeWarsPt1');
 const {distribution} = require('./CodeWars/SnakeInTheSquare')
 
-describe('duplicateCount', () => {
+describe.skip('duplicateCount', () => {
     it('', () => {
         var actual = duplicateCount("aabBcde");
         expect(actual).toBe(2);
     })
 })
 
-describe('Quadratics', () => {
+describe.skip('Quadratics', () => {
     it('test cases', () => {
 
         expect(quadratic(0,1)).toStrictEqual([1, -1, 0]);
@@ -18,7 +18,7 @@ describe('Quadratics', () => {
     })
 })
 
-describe('findOdd', () => {
+describe.skip('findOdd', () => {
     it('test cases', () => {
         a =[20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5];
     n = 5;
@@ -44,7 +44,7 @@ describe('findOdd', () => {
     })
 })
 
-it('solution', () => {
+it.skip('solution', () => {
     expect(solution('45', '1')).toBe('1451');
     expect(solution('13', '200')).toBe('1320013');
     expect(solution('Soon', 'Me')).toBe('MeSoonMe');
@@ -52,7 +52,7 @@ it('solution', () => {
 
 })
 
-describe('isIsoGram', () => {
+describe.skip('isIsoGram', () => {
     expect('Dermatoglyphics').toBeTruthy();
     expect('isogram').toBeTruthy();
     it("same chars may not be adjacent", () => {
@@ -71,21 +71,21 @@ describe('isIsoGram', () => {
     })
 })
 
-describe('Vowels', () => {
+describe.skip('Vowels', () => {
     it ("should be defined", function(){
         expect(getCount("abracadabra")).toBe(5);
     });
 })
 
 
-describe('Jade Case Strings', () => {
+describe.skip('Jade Case Strings', () => {
     it('test', () => {
         var str = "How can mirrors be real if our eyes aren't real";
         expect(str.toJadenCase()).toBe('How Can Mirrors Be Real If Our Eyes Aren\'t Real');
     })
 })
 
-describe('Directions Reduction', () => {
+describe.skip('Directions Reduction', () => {
     it('Eins', () => {
         expect(dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"])).toStrictEqual(["WEST"]);
     })
@@ -106,7 +106,7 @@ describe('Directions Reduction', () => {
     }) 
 })
 
-describe('celsius converter', function () {
+describe.skip('celsius converter', function () {
     it ('should get correct answer', function () {
       expect(weatherInfo(50)).toBe('10 is above freezing temperature');
     })
@@ -115,7 +115,7 @@ describe('celsius converter', function () {
     })
 })
 
-describe("nbYear",function() {
+describe.skip("nbYear",function() {
     it("Basic tests",function() {    
         expect(nbYear(1500, 5, 100, 5000)).toBe(15)
     })
@@ -129,7 +129,7 @@ describe("nbYear",function() {
     })
 })
 
-describe("Rot13", function(){
+describe.skip("Rot13", function(){
     it("grfg", function(){
       expect(rot13("test")).toBe('grfg');
 
@@ -147,7 +147,7 @@ describe("Rot13", function(){
 
 })
 
-describe("Are they the 'Same'", () => {
+describe.skip("Are they the 'Same'", () => {
     it('test case 1', () => {
         a1 = [121, 144, 19, 161, 19, 144, 19, 11];
         a2 = [11*11, 121*121, 144*144, 19*19, 161*161, 19*19, 144*144, 19*19];
@@ -160,7 +160,7 @@ describe("Are they the 'Same'", () => {
     })
 })
 
-describe('Delete Nth', () => {
+describe.skip('Delete Nth', () => {
     it('eins', () => {
         expect(deleteNth([20,37,20,21], 1)).toStrictEqual( [20,37,21])
     })
@@ -175,7 +175,7 @@ describe('Delete Nth', () => {
     })
 })
 
-describe('DigPow', () => {
+describe.skip('DigPow', () => {
     it('Eins', () => {
         expect(digPow(89, 1)).toBe(1);
     })
@@ -194,14 +194,14 @@ describe('DigPow', () => {
     
 })
 
-describe("Anagrams", function() {
+describe.skip("Anagrams", function() {
     it("Test case one", function() {
         const words = ['aabb', 'abcd', 'bbaa', 'dada'];
         expect(anagrams('abba',words)).toStrictEqual(['aabb', 'bbaa'])
     });
 });
 
-describe.only('Distribution', () => {
+describe.skip('Distribution', () => {
     const CONFIG = [
         [5,  [[1, 0, 0], [1, 0, 0], [1, 1, 1]] ],
         [8,  [[1, 0, 0, 0], [1, 0, 1, 0], [1, 0, 1, 0], [1, 1, 1, 0]] ],
