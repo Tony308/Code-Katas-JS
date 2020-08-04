@@ -23,6 +23,7 @@ function chirp(n) {
 }
 
 function capitalizeWord(word) {
+    word[0] = word[0].toUpperCase()
     return word[0].toUpperCase() + word.substring(1)
 }
 

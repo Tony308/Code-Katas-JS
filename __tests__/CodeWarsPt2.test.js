@@ -1,6 +1,6 @@
-const {firstNonRepeatingLetter, validSolution, pigIt, replicate, capitalizeWord, alphabetPosition, domainName} = require('./CodeWars/CodeWarsPt2');
+const {firstNonRepeatingLetter, validSolution, pigIt, replicate, capitalizeWord, alphabetPosition, domainName} = require('../CodeWars/CodeWarsPt2')
 
-describe('Replicate', () => {
+describe.skip('Replicate', () => {
     it('', () => {
         expect(replicate(3,5)).toStrictEqual([5, 5, 5]);
     })
@@ -18,7 +18,7 @@ describe('Replicate', () => {
     })
 })
 
-describe('CapitalizeWord', () => {
+describe.skip('CapitalizeWord', () => {
     it('', () => {
         expect(capitalizeWord('word')).toBe( 'Word');
     })
@@ -30,7 +30,7 @@ describe('CapitalizeWord', () => {
     })
 })
 
-describe('AlphabetPosition', () => {
+describe.skip('AlphabetPosition', () => {
     it('', () => {
         expect(alphabetPosition("The sunset sets at twelve o' clock.")).toBe( "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11")
     })
@@ -39,7 +39,7 @@ describe('AlphabetPosition', () => {
     })
 })
 
-describe('DomainName', () => {
+describe.skip('DomainName', () => {
     it('google.com', () => {
         expect(domainName("http://google.com")).toBe( "google");
     })
@@ -62,7 +62,7 @@ describe('DomainName', () => {
     })
 })
 
-describe('pigIt', () => {
+describe.skip('pigIt', () => {
     it('', () =>{
         expect(pigIt('Pig latin is cool')).toBe('igPay atinlay siay oolcay')
     })
@@ -72,7 +72,7 @@ describe('pigIt', () => {
 })
 
 
-describe('ValidSolution', () => {
+describe.skip('ValidSolution', () => {
     it('true', () => {
         expect(validSolution([[5, 3, 4, 6, 7, 8, 9, 1, 2], 
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
@@ -98,7 +98,7 @@ describe('ValidSolution', () => {
    })
 })
 
-describe.only('FirstNonRepeatingLetter', () => {
+describe.skip('FirstNonRepeatingLetter', () => {
     it('a', () => {
         expect(firstNonRepeatingLetter('a')).toBe('a');
     })

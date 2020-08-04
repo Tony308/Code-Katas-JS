@@ -1,6 +1,3 @@
-const { compose } = require("async");
-const { array } = require("prop-types");
-
 function gradingStudents(grades) {
     for (let x = 0;x < grades.length;x++) {
         let nearest = Math.ceil(grades[x]/5) * 5;
@@ -72,3 +69,4 @@ function getTotalX(a, b) {
     console.log(result);
     return result;
 }
+
