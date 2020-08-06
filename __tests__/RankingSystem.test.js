@@ -1,6 +1,6 @@
 const {User} = require('../CodeWars/RankingSystem')
 
-describe.only("User Class", function() {
+describe.skip("User Class", function() {
     
     it("should initialize user with seed data", () => {
         const user = new User()
