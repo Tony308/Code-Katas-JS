@@ -1,6 +1,6 @@
 const {makeAnagram} = require('../HackerRank/MakeAnagram');
 
-describe.only('Make Anagrams', () => {
+describe.skip('Make Anagrams', () => {
     it('', () => {
         expect(makeAnagram('cde', 'abc')).toBe(4);
     })
