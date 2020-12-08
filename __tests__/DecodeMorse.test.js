@@ -1,6 +1,6 @@
 const {decodeMorse} = require('../CodeWars/DecodeMorse')
 
-describe.only('Decode Morse', () => {
+describe.skip('Decode Morse', () => {
     it('', () => {
         expect(decodeMorse('.... . -.--   .--- ..- -.. .')).toBe( 'HEY JUDE')
     })
