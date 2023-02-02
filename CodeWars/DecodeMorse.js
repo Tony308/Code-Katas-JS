@@ -47,8 +47,6 @@ const decodeMorse = function(morseCode){
     }).join(' ').trim()
 }
 
-console.log(decodeMorse('      ...---... -.-.--   - .... .   --.- ..- .. -.-. -.-   -... .-. --- .-- -.   ..-. --- -..-   .--- ..- -- .--. ...   --- ...- . .-.   - .... .   .-.. .- --.. -.--   -.. --- --. .-.-.-  '))
-console.log(decodeMorse('   .   . '));
 module.exports = {
     decodeMorse
 }

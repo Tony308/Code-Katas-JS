@@ -1,4 +1,4 @@
-const isValidWalk = require('./isValidWalk');
+const isValidWalk = require('../__tests__/isValidWalk');
 
 describe("Tests", () => {
     it("test", () => {
