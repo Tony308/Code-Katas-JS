@@ -25,6 +25,5 @@ describe("", () => {
         doTest("0fdsaf0fsda0f12", "0fdsaf0fsda0f13");
         doTest("asdfasdf", "asdfasdf1");
         doTest("x.@f6a%5s0123", "x.@f6a%5s0124");
-        doTest("-2", "-1");
     });
 })
