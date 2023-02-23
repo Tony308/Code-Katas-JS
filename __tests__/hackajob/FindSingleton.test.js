@@ -1,4 +1,4 @@
-const run = require("../HackaJob/FindSingleton")
+const run = require("../../HackaJob/FindSingleton")
 
 
 describe("Solution", function () {

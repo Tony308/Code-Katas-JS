@@ -1,4 +1,4 @@
-const {makeAnagram} = require('../HackerRank/MakeAnagram');
+const {makeAnagram} = require('../../HackerRank/MakeAnagram');
 
 describe.skip('Make Anagrams', () => {
     it('', () => {

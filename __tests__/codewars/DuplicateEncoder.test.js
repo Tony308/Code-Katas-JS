@@ -1,4 +1,4 @@
-const duplicateEncode = require("../CodeWars/DuplicateEncoder");
+const duplicateEncode = require("../../CodeWars/DuplicateEncoder");
 
 // describe("Duplicate Encoder", () => {
 //   it("Testing for fixed tests", () => {

@@ -1,4 +1,4 @@
-const {add} = require('../CodeWars/AddingBigNumbers')
+const {add} = require('../../CodeWars/AddingBigNumbers')
 
 describe.skip("Add two numbers", function(){
     it("should pass basic tests", function() {

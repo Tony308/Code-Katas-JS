@@ -1,4 +1,4 @@
-const solution = require('../CodeWars/StringIncrementer');
+const solution = require('../../CodeWars/StringIncrementer');
 
 function doTest(input, expected) {
     const actual = solution(input);

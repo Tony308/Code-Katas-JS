@@ -1,5 +1,5 @@
 const {duplicateCount, quadratic, findOdd, solution, isIsogram, getCount, dirReduc, weatherInfo, nbYear, rot13, comp, deleteNth, digPow, anagrams} = require('../CodeWars/CodeWarsPt1');
-const {distribution} = require('../CodeWars/SnakeInTheSquare')
+const {distribution} = require('../../CodeWars/SnakeInTheSquare')
 
 describe.skip('duplicateCount', () => {
     it('', () => {

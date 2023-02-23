@@ -1,4 +1,4 @@
-const {firstNonRepeatingLetter, validSolution, pigIt, replicate, capitalizeWord, alphabetPosition, domainName} = require('../CodeWars/CodeWarsPt2')
+const {firstNonRepeatingLetter, validSolution, pigIt, replicate, capitalizeWord, alphabetPosition, domainName} = require('../../CodeWars/CodeWarsPt2')
 
 describe.skip('Replicate', () => {
     it('', () => {

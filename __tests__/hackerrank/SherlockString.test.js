@@ -1,4 +1,4 @@
-const {isValid} = require('../HackerRank/SherlockString')
+const {isValid} = require('../../HackerRank/SherlockString')
 
 describe.skip('IsValid() ', () => {
     it('', () => {

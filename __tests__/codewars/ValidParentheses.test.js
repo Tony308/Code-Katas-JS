@@ -1,4 +1,4 @@
-const validParentheses = require('../CodeWars/ValidParentheses');
+const validParentheses = require('../../CodeWars/ValidParentheses');
 describe("Tests", () => {
     it(`values: "("`, () => expect(validParentheses("(")).toBeFalsy());
     it(`values: ")"`, () => expect(validParentheses(")")).toBeFalsy());

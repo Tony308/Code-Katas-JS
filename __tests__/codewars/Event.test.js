@@ -1,4 +1,4 @@
-const Event = require('../CodeWars/Event');
+const Event = require('../../CodeWars/Event');
 
 var event;
 describe("events", () => {

@@ -1,4 +1,4 @@
-const {decodeMorse} = require('../CodeWars/DecodeMorse')
+const {decodeMorse} = require('../../CodeWars/DecodeMorse')
 
 describe.skip('Decode Morse', () => {
     it('', () => {

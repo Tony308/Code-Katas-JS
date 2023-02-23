@@ -1,4 +1,4 @@
-const getDayName = require('../HackerRank/DayName');
+const getDayName = require('../../HackerRank/DayName');
 
 describe("", () => {
     it("", () => {

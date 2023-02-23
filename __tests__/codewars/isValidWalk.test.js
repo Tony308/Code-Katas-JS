@@ -1,4 +1,4 @@
-const isValidWalk = require('../CodeWars/isValidWalk');
+const isValidWalk = require('../../CodeWars/isValidWalk');
 
 describe("Tests", () => {
     it("test", () => {

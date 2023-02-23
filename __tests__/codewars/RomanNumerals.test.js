@@ -1,4 +1,4 @@
-const RomanNumerals = require('../CodeWars/RomanNumerals');
+const RomanNumerals = require('../../CodeWars/RomanNumerals');
 
 describe("toRoman", () => {
     const data = [

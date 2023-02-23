@@ -1,4 +1,4 @@
-const wrap = require('../CodeWars/WordWrap');
+const wrap = require('../../CodeWars/WordWrap');
 
 describe("basic", () => {
     it("simple", () => {

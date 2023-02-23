@@ -1,4 +1,4 @@
-const stripComments = require("../CodeWars/StripComments")
+const stripComments = require("../../CodeWars/StripComments")
 
 
 describe("Strip Comment,", () => {

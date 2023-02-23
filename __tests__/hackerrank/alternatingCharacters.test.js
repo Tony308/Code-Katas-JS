@@ -1,4 +1,4 @@
-const { alternatingCharacters } = require('../HackerRank/Alternating Characters')
+const { alternatingCharacters } = require('../../HackerRank/Alternating Characters')
 
 describe.skip('Alternating Characters', () => {
     it('', () => {

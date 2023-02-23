@@ -1,4 +1,4 @@
-const {User} = require('../CodeWars/RankingSystem')
+const {User} = require('../../CodeWars/RankingSystem')
 
 describe.skip("User Class", function() {
     

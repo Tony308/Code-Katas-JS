@@ -1,4 +1,4 @@
-const run = require('../HackaJob/EnglishClassroom');
+const run = require('../../HackaJob/EnglishClassroom');
 
 describe("Solution", function () {
 	

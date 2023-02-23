@@ -1,4 +1,4 @@
-const run = require("../HackaJob/HomeOffice");
+const run = require("../../HackaJob/HomeOffice");
 
 describe("Solution", function () {
     //

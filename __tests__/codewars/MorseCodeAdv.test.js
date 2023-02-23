@@ -1,4 +1,4 @@
-const {decodeBits, decodeMorse} = require('../CodeWars/MorseCodeAdv')
+const {decodeBits, decodeMorse} = require('../../CodeWars/MorseCodeAdv')
 
 describe.skip('MorseCode Advanced', () => {
     
